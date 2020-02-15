@@ -1,0 +1,4166 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  margin: 0 auto;
+  width: 319px;
+  border: none;
+}
+
+.nav {
+  position: fixed;
+  width: 319px;
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  background: #fff;
+  z-index: 999;
+}
+.logo {
+  margin-top: 20px;
+}
+.logo img {
+  width: 20px;
+  height: 20px;
+  margin-left: 15px;
+}
+.hamburger img{
+  margin-top: 20px;
+  cursor: pointer;
+  width: 20px;
+  height: 20px;
+  margin-right: 15px;
+} 
+.overlay {
+  height: 0;
+  width: 60%;
+  position: fixed;
+  z-index: 999;
+  top: 50px;
+  left: 100px;
+  background: #316099;
+  overflow-x: hidden;
+  transition: 0.5s;
+  opacity: 0.9;
+}
+.overlay-content {
+  position: relative;
+  top: 25%;
+  width: 100%;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.overlay a {
+  margin-bottom: 20px;
+  text-decoration: none;
+  text-align: center;
+  font-size: 16px;
+  color:#fff;
+  border-bottom: 1px solid rgb(47, 47, 139);
+  display: block;
+  transition: 0.3s;
+  padding-top: 5px;
+}
+
+.overlay a:hover, .overlay a:focus {
+  color: #ada5fd;
+}
+.overlay .closebtn {
+  position: absolute;
+  top: 10px;
+  right: 25px;
+  font-size: 45px;
+  color:#fff;
+  border: none;
+}
+
+.hero-section {
+  position: relative;
+  width: 319px;
+  height: 468px;
+  margin: 0 auto;
+  top: 1px;
+  background: linear-gradient(0deg, #98C3E8 8.84%, rgba(152, 195, 232, 0) 31.12%);
+}
+
+.Youtech {
+  position: absolute;
+  width: 319px;
+  height: 97px;
+  top: 123px;
+  text-align: center;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 27px;
+  line-height: 47px;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: #316099;
+}
+
+/* The Largest Digital Design Agency */
+.motto {
+  position: absolute;
+  width: 319px;
+  text-align: center;
+  height: 97px;
+  top: 201px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 31px;
+  line-height: 37px;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: #316099;
+}
+
+
+.text {
+  position: relative;
+  width: 319px;
+  height: 26px;
+  margin: 0 auto;
+  top: 306px;
+  font-family: Abyssinica SIL;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: #316099;
+}
+  /* See Our Project CTA */
+
+.button {
+  position: relative;
+  width: 125px;
+  height: 26px;
+  margin: 0 auto;
+  top: 376px;
+  font-family: Abyssinica SIL;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: #FFFFFF;
+  background: #316099;
+  border-radius: 5px;
+}
+.button a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.hero-image {
+  position: relative;
+  width: 319px;
+  height: 603px;
+  display: flex;
+  justify-content: center;
+  top: 479px;
+  border: 15px solid rgba(255, 255, 255, 0.2);
+}
+
+.hero-image img{
+    width: 200px;
+    height: 200px;
+}
+
+/* What we do section*/
+
+.mid-section {
+  position: relative;
+  margin: 0 auto;
+  width: 319px;
+  height: 138px;
+  top: 330px;
+  font-family: Acme;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 46px;
+  letter-spacing: 0.05em;
+  color: #316099;
+}
+.section-text {
+  width: 319px;
+  height: 138px;
+  top: 1160px;
+  margin: 0 auto;
+  text-align: center;
+  font-family: Acme;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 26px;
+  line-height: 36px;
+  letter-spacing: 0.05em;
+  color: #316099;
+  }
+/* css for left rectangle */
+.section-rectangle {
+  position: relative;
+  width: 280px;
+  margin: 0 auto;
+  height: 500px;
+  top: 100px;
+  background: #FFFFFF;
+  box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
+  border-radius: 10px;
+}
+.section-rectangle img {
+   margin: 0 auto;
+   display: flex;
+   justify-content: center;
+   margin-top: -45px;
+   width: 200px;
+   height: 150px;
+}
+.section-rectangle h3 {
+  position: absolute;
+  width: 200px;
+  height: 60px;
+  margin-top: 20px;
+  margin-left: 40px;
+  font-family: Acme;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.05em;
+  color: #1F3F68;
+}
+.section-rectangle p {
+  position: absolute;
+  width: 214px;
+  height: 103px;
+  margin-top: 105px;
+  margin-left: 40px;
+  font-family: Abyssinica SIL;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0.05em;
+  color: #1F3F68;
+  opacity: 0.6;
+}
+
+.learn {
+  position: absolute;
+  Font-Family: Acme;
+  Font-Style: Regular;
+  margin-top: 270px;
+  margin-left: 40px;
+  Font-Size: 14px;
+  Line-Height: 30px;
+  Line-Height: 169%;
+  Vertical-Align: Top;
+  Letter-Spacing: 5%;
+  Fill: Solid;
+  color: #5A98D0;
+}
+.learn a {
+text-decoration: none;
+color: #5A98D0;
+}
+
+/* css for right rectangle */
+
+
+.section-rectangle2 {
+  position: relative;
+  width: 280px;
+  margin: 0 auto;
+  height: 500px;
+  top: 200px;
+  background: #FFFFFF;
+  box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
+  border-radius: 10px;
+}
+.section-rectangle2 img {
+   margin: 0 auto;
+   display: flex;
+   justify-content: center;
+   margin-top: -45px;
+   width: 200px;
+   height: 150px;
+}
+.section-rectangle2 h3 {
+  position: absolute;
+  width: 200px;
+  height: 60px;
+  margin-top: 20px;
+  margin-left: 40px;
+  font-family: Acme;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.05em;
+  color: #1F3F68;
+}
+.section-rectangle2 p {
+  position: absolute;
+  width: 214px;
+  height: 103px;
+  margin-top: 105px;
+  margin-left: 40px;
+  font-family: Abyssinica SIL;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0.05em;
+  color: #1F3F68;
+  opacity: 0.6;
+}
+/* css for left second rectangle */
+.section-rectangle3 {
+  position: relative;
+  width: 280px;
+  margin: 0 auto;
+  height: 500px;
+  top: 300px;
+  background: #FFFFFF;
+  box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
+  border-radius: 10px;
+}
+.section-rectangle3 img {
+   margin: 0 auto;
+   display: flex;
+   justify-content: center;
+   margin-top: -45px;
+   width: 200px;
+   height: 150px;
+}
+.section-rectangle3 h3 {
+  position: absolute;
+  width: 200px;
+  height: 60px;
+  margin-top: 20px;
+  margin-left: 40px;
+  font-family: Acme;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.05em;
+  color: #1F3F68;
+}
+.section-rectangle3 p {
+  position: absolute;
+  width: 214px;
+  height: 103px;
+  margin-top: 105px;
+  margin-left: 40px;
+  font-family: Abyssinica SIL;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0.05em;
+  color: #1F3F68;
+  opacity: 0.6;
+}
+.section-text2 {
+position: absolute;
+width: 245px;
+height: 138px;
+left: 40px;
+top: 1900px;
+font-family: Acme;
+font-style: normal;
+font-weight: normal;
+font-size: 36px;
+line-height: 46px;
+letter-spacing: 0.05em;
+color: #316099;
+}
+.section-text3 {
+position: absolute;
+width: 245px;
+height: 138px;
+top: 2050px;
+left: 40px;
+font-family: Abyssinica SIL;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 26px;
+letter-spacing: 0.05em;
+color: #1F3F68;
+opacity: 0.6;
+}
+
+
+
+
+/* css for about us page */
+.header img {
+position: absolute;
+margin: 0 auto;
+width: 319px;
+top: 70px;
+}
+.header p{
+position: absolute;
+text-align: center;
+color: #fff;
+width: 319px;
+top: 80px;
+font-family: Abyssinica SIL;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 26px;
+letter-spacing: 0.05em;
+z-index:1;
+}
+
+.text-area {
+position: absolute;
+width: 319px;
+height: 138px;
+left: 0;
+top: 160px;
+background-image: url('images/Group\ 20.png');
+background-size: contain;
+background-repeat: no-repeat;
+background-position-x: 1000px;
+background-position-y: 0;
+overflow-x: hidden;
+}
+
+.txt {
+position: relative;
+margin: 0 auto;
+width: 219px;
+text-align: center;
+font-family: Abyssinica SIL;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0.05em;
+color: #1F3F68;
+opacity: 0.6;
+}
+
+.header-contact img {
+  position: absolute;
+  margin: 0 auto;
+  height: 100px;
+  width: 319px;
+  top: 70px;
+  }
+
+.text-area-contact {
+  position: absolute;
+  width: 319px;
+  height: 138px;
+  left: 0;
+  top: 200px;
+  }
+  .header-contact p{
+    position: absolute;
+    text-align: center;
+    color: #fff;
+    width: 319px;
+    top: 80px;
+    font-family: Abyssinica SIL;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    z-index:1;
+    }
+  .txt-contact {
+  position: relative;
+  margin: 0 auto;
+  width: 319px;
+  text-align: center;
+  font-family: Abyssinica SIL;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  top: -80px;
+  line-height: 14px;
+  letter-spacing: 0.05em;
+  color: #fff;
+  opacity: 0.6;
+  }
+
+.v-text {
+position: absolute;
+width: 319px;
+height: 138px;
+top: 300px;
+text-align: center;
+font-family: Acme;
+font-style: normal;
+font-weight: 600;
+font-size: 36px;
+line-height: 46px;
+letter-spacing: 0.05em;
+color: #1F3F68;
+}
+
+.value-section {
+position: relative;
+margin: 0 auto;
+width: 300px;
+display: flex;
+flex-direction: column;
+top: 400px;
+justify-content: center;
+}
+.value-section .image {
+  margin: 0 auto;
+}
+.value-section img {
+width: 250px;
+height: 200px;
+margin-bottom: 30px;
+}
+.value-section h4 {
+width: 319px;
+text-align: center;
+font-family: Acme;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 30px;
+letter-spacing: 0.05em;
+color: #1F3F68;
+}
+.value-section .txts {
+width: 319px;
+font-family: Abyssinica SIL;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 26px;
+letter-spacing: 0.05em;
+color: #1F3F68;
+opacity: 0.6;
+}
+.value-section p{
+  text-align: center;
+  width: 300px;
+}
+.mid-section-about {
+top: 450px;
+position: relative;
+margin: 0 auto;
+}
+
+.section-text {
+width: 245px;
+height: 138px;
+top: 1160px;
+font-family: Acme;
+font-style: normal;
+font-weight: normal;
+font-size: 26px;
+line-height: 36px;
+letter-spacing: 0.05em;
+color: #316099;
+}
+
+.footer {
+position: absolute;
+top: 2700px;
+width: 319px;
+background-image: url('images/Group\ 314.png');
+background-size: cover;
+height: 1500px;
+left: 0;
+background-size: cover;
+}
+
+.footer-text {
+position: absolute;
+width: 305px;
+height: 38px;
+left: 20px;
+top: 20px;
+font-family: Acme;
+font-style: normal;
+font-weight: normal;
+font-size: 36px;
+line-height: 46px;
+letter-spacing: 0.05em;
+color: #fff;
+}
+.footer-text1 {
+position: absolute;
+width: 245px;
+height: 138px;
+left: 20px;
+top: 110px;
+font-family: Abyssinica SIL;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 26px;
+letter-spacing: 0.05em;
+color: #fff;
+opacity: 0.6;
+}
+
+.client, .client-pad {
+  display: none;
+}
+.client-mobile {
+top: 240px;
+position: relative;
+}
+
+.footer table {
+  width: 200px;
+margin: 0 auto;
+font-family: Abyssinica SIL;
+}
+.footer td {
+padding: 30px;
+color: #fff;
+}
+
+.client-mobile1, .client-mobile2, .client-mobile3, .client-mobile4, .client-mobile5, .client-mobile6, .client-mobile7, .client-mobile8, .active-mobile
+{
+border: 1px solid #fff;
+
+}
+
+.active-mobile {
+background: #1F3F68;
+opacity: 0.4;
+}
+
+.footer-text2 {
+position: absolute;
+width: 305px;
+height: 38px;
+left: 20px;
+top: 680px;
+font-family: Acme;
+font-style: normal;
+font-weight: normal;
+font-size: 26px;
+line-height: 36px;
+letter-spacing: 0.05em;
+color: #fff;
+}
+.footer-text3 {
+position: absolute;
+width: 245px;
+height: 138px;
+left: 20px;
+top: 800px;
+font-family: Abyssinica SIL;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 26px;
+letter-spacing: 0.05em;
+color: #fff;
+opacity: 0.6;
+}
+.lower-button{
+position: absolute;
+background: #98C3E8;
+top: 913px;
+padding-top: 10px;
+padding-bottom: 10px;
+padding-left: 20px;
+left: 20px;
+padding-right: 20px;
+border-radius: 5px;
+}
+.lower-button a{
+text-decoration: none;
+font-family: Abyssinica SIL;
+color: #fff;
+}
+.footer-list {
+position: absolute;
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+border-top: 1px solid #fff;
+width: 300px;
+top: 970px;
+padding-left: 20px;
+padding-top: 40px;
+
+}
+.logo-text {
+display: flex;
+color: #fff;
+opacity: 0.7;
+font-family: Abyssinica SIL;
+}
+.logo-text h3 {
+font-family: Abyssinica SIL;
+}
+.about h4, .footer h4 {
+  margin-top: 30px;
+}
+.about, .socials {
+color: #fff;
+font-family: Abyssinica SIL;
+opacity: 0.7;
+}
+.about a, .socials a {
+color: #fff;
+text-decoration: none;
+opacity: 0.7;
+}
+.about li, .socials li {
+padding-top: 10px;
+list-style: none;
+}
+
+.copy {
+position: absolute;
+top: 1400px;
+width: 319px;
+color: #fff;
+opacity: 0.7;
+font-family: Abyssinica SIL;
+text-align: center;
+}
+
+
+/* contact us page */
+
+.info-section {
+  position: relative;
+  width: 300px;
+  margin: 0 auto;
+  top: 190px;
+}
+.info .pic {
+  width: 200px;
+  height: 150px;
+  position: relative;
+  margin: 0 auto;
+  display: flex;
+}
+.address, .phone, .online {
+  width: 250px;
+  text-align: left;
+  margin-left: 32px;
+  margin-top: 40px;
+}
+.address h4,.phone h4, .online h4 {
+  width: 250px;
+  padding-left: 17px;
+  font-family: Abyssinica SIL;
+font-style: normal;
+font-weight: 800;
+font-size: 16px;
+line-height: 26px;
+letter-spacing: 0.05em;
+color: #1F3F68;
+
+}
+.txt-icon {
+  display: flex;
+  margin-left: 15px;
+  margin-top: 10px;
+}
+.txt-icon img{
+  width: 20px;
+  height: 20px;
+}
+.txt-icon .number,.txt-icon .email{
+  padding-left: 10px;
+  color: #1F3F68;
+opacity: 0.6;
+}
+.address .txt, .phone .txt, .online .txt{
+  text-align: left;
+  margin-top: 20px;
+}
+
+.form {
+  position: relative;
+  width: 280px;
+  margin: 0 auto;
+  height: 450px;
+  top: 100px;
+  background: #FFFFFF;
+  box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
+  border-radius: 10px;
+}
+.form h4 {
+  padding-top: 30px;
+  padding-left: 25px;
+  padding-bottom: 25px;
+  font-family: Abyssinica SIL;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0.05em;
+  color: #1F3F68;
+}
+.form .input {
+  width: 250px;
+  position: relative;
+  margin: 0 auto;
+}
+.form input {
+  border-right: 1px solid gray;
+  border-bottom: 1px solid gray;
+  box-shadow: 0 2px 20px rgba(16, 112, 177, 0.1);
+  border-radius: 5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  position: relative;
+  height: 26px;
+  margin: 0 auto;
+}
+.form .name, .form .email, .form .message {
+  margin: 20px;
+}
+.name p, .email p, .message p {
+  font-family: Abyssinica SIL;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0.05em;
+  color: #1F3F68;
+}
+.form .button {
+  top: 20px;
+  width: 200px;
+}
+.form .message input{
+  padding-bottom: 60px;
+}
+.map {
+  position: relative;
+  margin: 0 auto;
+  width: 280px;
+  top: 340px;
+}
+.map img {
+  width: 280px;
+  height: 180px;
+}
+.footer-2 {
+  position: absolute;
+top: 1600px;
+width: 300px;
+background-image: url('images/Rectangle\ 4.png');
+background-size: cover;
+background-position-x: 300px;
+height: 800px;
+left: 0;
+}
+
+
+.footer-2 .footer-text2 {
+  top: 40px;
+  font-size: 20px;
+  }
+  .footer-2 .footer-text3 {
+  top: 140px;
+  }
+  .footer-2 .lower-button{
+  top: 273px;
+  }
+  
+  .footer-2 .footer-list {
+  top: 340px;
+  }
+  
+  .footer-2 .socials h4 {
+    margin-top: 30px;
+  }
+  
+ .footer-2 .copy {
+  position: absolute;
+  top: 750px;
+  width: 300px;
+  }
+  
+@media (min-width:320px) and (max-width:479px) {
+  
+body {
+  margin: 0 auto;
+  width: 100%;
+  border: none;
+}
+
+.nav {
+  width: 100%;
+  height: 70px;
+}
+
+ 
+.overlay {
+  left: 130px;
+}
+.hero-section {
+  width: 100%;
+  height: 468px;
+}
+
+.Youtech {
+  width: 100%;
+}
+
+/* The Largest Digital Design Agency */
+.motto {
+  width: 100%;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+
+.text {
+  width: 100%;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+  
+
+.hero-image {
+  position: relative;
+  width: 319px;
+  height: 603px;
+  display: flex;
+  justify-content: center;
+  top: 479px;
+  border: 15px solid rgba(255, 255, 255, 0.2);
+}
+
+.hero-image {
+  position: relative;
+  margin: 0 auto;
+  width: 100%;
+  top: 450px;
+}
+.hero-image img{
+    width: 300px;
+    height: 300px;
+}
+
+/* What we do section*/
+
+.mid-section {
+  position: relative;
+  margin: 0 auto;
+  width: 319px;
+  height: 138px;
+  top: 400px;
+}
+
+
+
+/* css for about us page */
+
+.header img {
+position: absolute;
+margin: 0 auto;
+width: 100%;
+top: 70px;
+}
+.header p{
+width: 100%;
+top: 100px;
+
+}
+
+.text-area {
+width: 100%;;
+top: 180px;
+}
+
+.txt {
+width: 80%;
+text-align: center;
+}
+
+
+.header-contact img {
+  width: 100%;
+  }
+
+.text-area-contact {
+  width: 100%;
+  top: 200px;
+  }
+  .header-contact p{
+    width: 100%;
+    }
+  .txt-contact {
+  width: 90%;
+  text-align: center;
+  
+  }
+.v-text {
+width: 100%;;
+}
+
+.value-section {
+width: 100%;;
+display: flex;
+}
+
+.value-section img {
+width: 300px;
+height: 250px;
+}
+.value-section h4 {
+width: 100%;;
+}
+.value-section .txts {
+width: 100%;;
+}
+.value-section p{
+  text-align: center;
+  width: 100%;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.mid-section-about {
+top: 450px;
+
+position: relative;
+margin: 0 auto;
+width: 100%;
+}
+
+.section-text {
+width: 245px;
+height: 138px;
+top: 1160px;
+font-family: Acme;
+font-style: normal;
+font-weight: normal;
+font-size: 26px;
+line-height: 36px;
+letter-spacing: 0.05em;
+color: #316099;
+}
+
+.footer {
+width: 100%;
+}
+
+.footer-text {
+width: 70%;
+height: 38px;
+left: 40px;
+
+}
+.footer-text1 {
+width: 70%;
+left: 40px;
+}
+
+.client {
+  display: none;
+}
+.footer table {
+  width: 60%;
+}
+
+.footer-text2 {
+width: 70%;
+left: 40px;
+}
+.footer-text3 {
+width: 70%;
+left: 40px;
+}
+.lower-button{
+left: 40px;
+}
+
+.footer-list {
+width: 80%;
+top: 970px;
+padding-left: 40px;
+padding-top: 40px;
+}
+
+/* contact us page */
+
+.info-section {
+  width: 100%;
+}
+.info .pic {
+  width: 300px;
+  height: 200px;
+}
+.address, .phone, .online {
+  width: 250px;
+  margin-left: 65px;
+}
+
+.form {
+  width: 70%;
+}
+
+.form .input {
+  width: 250px;
+}
+
+.map {
+  position: relative;
+  margin: 0 auto;
+  width: 319px;
+  top: 340px;
+  margin: 0 auto;
+  border: 1px solid red;
+}
+.map img {
+  width: 319px;
+  height: 180px;
+}
+.footer-2 {
+  position: absolute;
+top: 1700px;
+width: 100%;
+background-image: url('images/Rectangle\ 4.png');
+background-size: cover;
+background-position-x: 300px;
+height: 800px;
+left: 0;
+}
+
+
+.footer-2 .footer-text2 {
+  top: 40px;
+  font-size: 20px;
+  }
+  .footer-2 .footer-text3 {
+  top: 140px;
+  }
+  .footer-2 .lower-button{
+  top: 273px;
+  }
+  
+  .footer-2 .footer-list {
+  top: 340px;
+  }
+  
+  .footer-2 .socials h4 {
+    margin-top: 30px;
+  }
+  
+ .footer-2 .copy {
+  position: absolute;
+  top: 750px;
+  width: 300px;
+  }
+
+}
+
+
+@media (min-width:480px) and (max-width:679px) {
+  
+  body {
+    margin: 0 auto;
+    width: 100%;
+    border: none;
+  }
+  
+  .nav {
+    width: 100%;
+    height: 70px;
+  }
+  
+   
+  .overlay {
+    left: 190px;
+  }
+  .hero-section {
+    width: 100%;
+    height: 468px;
+  }
+  
+  .Youtech {
+    width: 100%;
+  }
+  
+  /* The Largest Digital Design Agency */
+  .motto {
+    width: 100%;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  
+  
+  .text {
+    width: 100%;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+    
+  
+  .hero-image {
+    position: relative;
+    width: 319px;
+    height: 603px;
+    display: flex;
+    justify-content: center;
+    top: 479px;
+    border: 15px solid rgba(255, 255, 255, 0.2);
+  }
+  
+  .hero-image {
+    position: relative;
+    margin: 0 auto;
+    width: 100%;
+    top: 450px;
+  }
+  .hero-image img{
+      width: 300px;
+      height: 300px;
+  }
+  
+  /* What we do section*/
+  
+  .mid-section {
+    position: relative;
+    margin: 0 auto;
+    width: 319px;
+    height: 138px;
+    top: 400px;
+  }
+  
+  
+  
+  /* css for about us page */
+  
+  .header img {
+  position: absolute;
+  margin: 0 auto;
+  width: 100%;
+  top: 70px;
+  }
+  .header p{
+  width: 100%;
+  top: 100px;
+  
+  }
+  .txt {
+    top: 50px;
+  }
+  .text-area {
+  width: 100%;;
+  top: 180px;
+  }
+  
+  .txt {
+  width: 80%;
+  text-align: center;
+  }
+  
+.header-contact img {
+  width: 100%;
+  }
+
+.text-area-contact {
+  width: 100%;
+  top: 200px;
+  }
+  .header-contact p{
+    width: 100%;
+    }
+  .txt-contact {
+  width: 90%;
+  text-align: center;
+  
+  }
+  
+  .v-text {
+  width: 100%;;
+  }
+  
+  .value-section {
+  width: 100%;;
+  display: flex;
+  }
+  
+  .value-section img {
+  width: 300px;
+  height: 250px;
+  }
+  .value-section h4 {
+  width: 100%;;
+  }
+  .value-section .txts {
+  width: 100%;;
+  }
+  .value-section p{
+    text-align: center;
+    width: 100%;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .mid-section-about {
+  top: 450px;
+  
+  position: relative;
+  margin: 0 auto;
+  width: 100%;
+  }
+  
+  .section-text {
+  width: 245px;
+  height: 138px;
+  top: 1160px;
+  font-family: Acme;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 26px;
+  line-height: 36px;
+  letter-spacing: 0.05em;
+  color: #316099;
+  }
+  
+  .footer {
+  width: 100%;
+  }
+  
+  .footer-text {
+  width: 70%;
+  height: 38px;
+  left: 40px;
+  
+  }
+  .footer-text1 {
+  width: 70%;
+  left: 40px;
+  }
+  
+  .client {
+    display: none;
+  }
+  .footer table {
+    width: 60%;
+  }
+  
+  .footer-text2 {
+  width: 70%;
+  left: 40px;
+  }
+  .footer-text3 {
+  width: 70%;
+  left: 40px;
+  }
+  .lower-button{
+  left: 40px;
+  }
+  
+  .footer-list {
+  width: 80%;
+  top: 970px;
+  padding-left: 40px;
+  padding-top: 40px;
+  }
+  /* contact us page */
+
+.info-section {
+  width: 100%;
+}
+.info .pic {
+  width: 400px;
+  height: 300px;
+}
+.address, .phone, .online {
+  width: 350px;
+  margin-left: 50px;
+}
+.address .txt {
+  top: 0;
+}
+
+.form {
+  width: 70%;
+}
+
+.form .input {
+  width: 250px;
+}
+
+.map {
+  position: relative;
+  margin: 0 auto;
+  width: 419px;
+  top: 340px;
+  margin: 0 auto;
+  border: 1px solid red;
+}
+.map img {
+  width: 419px;
+  height: 280px;
+}
+.footer-2 {
+top: 1850px;
+width: 100%;
+
+}
+  
+  }
+  
+
+
+  @media (min-width:680px) and (max-width:879px) {
+  
+    body {
+      margin: 0 auto;
+      width: 100%;
+      border: none;
+    }
+    
+    .nav {
+      width: 100%;
+      height: 70px;
+    }
+    
+     
+    .overlay {
+      left: 230px;
+    }
+    .hero-section {
+      width: 100%;
+      height: 468px;
+    }
+    
+    .Youtech {
+      width: 100%;
+    }
+    
+    /* The Largest Digital Design Agency */
+    .motto {
+      width: 100%;
+      padding-left: 30px;
+      padding-right: 30px;
+    }
+    
+    
+    .text {
+      width: 100%;
+      padding-left: 30px;
+      padding-right: 30px;
+    }
+      
+    
+    .hero-image {
+      position: relative;
+      width: 409px;
+      height: 603px;
+      margin: 0 auto;
+      display: flex;
+      justify-content: center;
+      top: 479px;
+      border: 15px solid rgba(255, 255, 255, 0.2);
+    }
+    
+    
+    .hero-image img{
+        width: 400px;
+        height: 350px;
+    }
+    
+    /* What we do section*/
+    
+    .mid-section {
+      position: relative;
+      margin: 0 auto;
+      width: 319px;
+      height: 138px;
+      top: 460px;
+    }
+    
+    /* css for left rectangle */
+.section-rectangle {
+  position: relative;
+  width: 380px;
+  margin: 0 auto;
+  height: 500px;
+  top: 20px;
+  background: #FFFFFF;
+  box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
+  border-radius: 10px;
+}
+.section-rectangle img {
+   margin: 0 auto;
+   display: flex;
+   justify-content: center;
+   margin-top: -45px;
+   width: 250px;
+   height: 200px;
+}
+.section-rectangle h3 {
+  position: absolute;
+  width: 200px;
+  height: 60px;
+  margin-top: 20px;
+  margin-left: 40px;
+  font-family: Acme;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.05em;
+  color: #1F3F68;
+}
+.section-rectangle p {
+  position: absolute;
+  width: 214px;
+  height: 103px;
+  margin-top: 105px;
+  margin-left: 40px;
+  font-family: Abyssinica SIL;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0.05em;
+  color: #1F3F68;
+  opacity: 0.6;
+}
+
+.learn {
+  position: absolute;
+  Font-Family: Acme;
+  Font-Style: Regular;
+  margin-top: 270px;
+  margin-left: 40px;
+  Font-Size: 14px;
+  Line-Height: 30px;
+  Line-Height: 169%;
+  Vertical-Align: Top;
+  Letter-Spacing: 5%;
+  Fill: Solid;
+  color: #5A98D0;
+}
+.learn a {
+text-decoration: none;
+color: #5A98D0;
+}
+
+/* css for right rectangle */
+
+
+.section-rectangle2 {
+  position: relative;
+  width: 380px;
+  margin: 0 auto;
+  height: 500px;
+  top: 110px;
+  background: #FFFFFF;
+  box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
+  border-radius: 10px;
+}
+.section-rectangle2 img {
+   margin: 0 auto;
+   display: flex;
+   justify-content: center;
+   margin-top: -45px;
+   width: 250px;
+   height: 200px;
+}
+.section-rectangle2 h3 {
+  position: absolute;
+  width: 200px;
+  height: 60px;
+  margin-top: 20px;
+  margin-left: 40px;
+  font-family: Acme;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.05em;
+  color: #1F3F68;
+}
+.section-rectangle2 p {
+  position: absolute;
+  width: 214px;
+  height: 103px;
+  margin-top: 105px;
+  margin-left: 40px;
+  font-family: Abyssinica SIL;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0.05em;
+  color: #1F3F68;
+  opacity: 0.6;
+}
+/* css for left second rectangle */
+.section-rectangle3 {
+  position: relative;
+  width: 380px;
+  margin: 0 auto;
+  height: 500px;
+  top: 200px;
+  background: #FFFFFF;
+  box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
+  border-radius: 10px;
+}
+.section-rectangle3 img {
+   margin: 0 auto;
+   display: flex;
+   justify-content: center;
+   margin-top: -45px;
+   width: 250px;
+   height: 200px;
+}
+.section-rectangle3 h3 {
+  position: absolute;
+  width: 200px;
+  height: 60px;
+  margin-top: 20px;
+  margin-left: 40px;
+  font-family: Acme;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.05em;
+  color: #1F3F68;
+}
+.section-rectangle3 p {
+  position: absolute;
+  width: 214px;
+  height: 103px;
+  margin-top: 105px;
+  margin-left: 40px;
+  font-family: Abyssinica SIL;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0.05em;
+  color: #1F3F68;
+  opacity: 0.6;
+}
+
+    
+    /* css for about us page */
+    
+    .header img {
+    position: absolute;
+    margin: 0 auto;
+    width: 100%;
+    top: 70px;
+    }
+    .header p{
+    width: 100%;
+    top: 100px;
+    
+    }
+    .txt {
+      top: 50px;
+    }
+    .text-area {
+    width: 100%;;
+    top: 180px;
+    }
+    
+    .txt {
+    width: 80%;
+    text-align: center;
+    }
+    
+.header-contact img {
+  width: 100%;
+  }
+
+.text-area-contact {
+  width: 100%;
+  top: 200px;
+  }
+  .header-contact p{
+    width: 100%;
+    top: 90px;
+    }
+  .txt-contact {
+  width: 90%;
+  text-align: center;  
+  }
+    
+    .v-text {
+    width: 100%;;
+    }
+    
+    .value-section {
+    width: 100%;;
+    display: flex;
+    }
+    
+    .value-section img {
+    width: 300px;
+    height: 250px;
+    }
+    .value-section h4 {
+    width: 100%;;
+    }
+    .value-section .txts {
+    width: 100%;;
+    }
+    .value-section p{
+      text-align: center;
+      width: 100%;
+      padding-left: 30px;
+      padding-right: 30px;
+    }
+    .mid-section-about {
+    top: 450px;
+    
+    position: relative;
+    margin: 0 auto;
+    width: 100%;
+    }
+    .client-mobile, .client {
+      display: none;
+    }
+    .client-pad {
+      display: block;
+    }
+    
+    .section-text {
+    width: 245px;
+    height: 138px;
+    top: 1160px;
+    font-family: Acme;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 36px;
+    letter-spacing: 0.05em;
+    color: #316099;
+    }
+    
+    .client {
+      display: none;
+    }
+
+/*     
+.client-pad {
+  top: 240px;
+  position: relative;
+  }
+  
+  .footer table {
+    width: 200px;
+  margin: 0 auto;
+  font-family: Abyssinica SIL;
+  }
+  .footer td {
+  padding: 30px;
+  color: #fff;
+  }
+  
+  .client-pad2, .client-pad3, .client-pad5, .client-pad6, .active-pad
+  {
+  border-left: 1px solid #fff;
+  
+  }
+  .client-pad1, .client-pad2, .client-pad3, .client-pad4, .client-pad5, .client-pad6
+{
+  border-bottom: 1px solid #fff;
+}
+  
+  .active-mobile {
+  background: #1F3F68;
+  opacity: 0.4;
+  }
+  .client-pad .mid {
+    position: absolute;
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+    .footer table {
+      width: 60%;
+    }
+     */
+    
+
+
+
+
+
+
+
+
+
+
+    
+.footer {
+  position: absolute;
+  top: 2690px;
+  width: 100%;
+  background-image: url('images/Group\ 314.png');
+  background-size: cover;
+  height: 1438px;
+  left: 0;
+  background-size: cover;
+  overflow-x: hidden;
+}
+
+.footer-text {
+  position: absolute;
+  width: 305px;
+  height: 38px;
+  left: 100px;
+  top: 80px;
+  font-family: Acme;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 46px;
+  letter-spacing: 0.05em;
+  color: #fff;
+}
+.footer-text1 {
+  position: absolute;
+  width: 445px;
+  height: 138px;
+  left: 350px;
+  top: 80px;
+  font-family: Abyssinica SIL;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0.05em;
+  color: #fff;
+  opacity: 0.6;
+}
+.client {
+  top: 300px;
+  position: relative;
+  display: block;
+}
+.client-mobile, .client-pad {
+  display: none;
+}
+.footer table {
+  margin: 0 auto;
+  font-family: Abyssinica SIL;
+}
+.footer td {
+  padding: 40px;
+  color: #fff;
+}
+.client1, .client2, .client3, .client4 {
+  border-bottom: 1px solid #fff;
+}
+.client1, .client2, .client3, .client5, .client6, .client7 {
+  border-right: 1px solid #fff;
+}
+.active {
+  background: #1F3F68;
+  opacity: 0.4;
+}
+
+.footer-text2 {
+  position: absolute;
+  width: 395px;
+  height: 38px;
+  left: 50px;
+  top: 780px;
+  font-family: Acme;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 46px;
+  letter-spacing: 0.05em;
+  color: #fff;
+}
+.footer-text3 {
+  position: absolute;
+  width: 445px;
+  height: 138px;
+  left: 50px;
+  top: 900px;
+  font-family: Abyssinica SIL;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0.05em;
+  color: #fff;
+  opacity: 0.6;
+}
+.lower-button{
+  position: absolute;
+  left: 500px;
+  background: #98C3E8;
+  top: 900px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 40px;
+  padding-right: 40px;
+  border-radius: 5px;
+}
+.lower-button a{
+  text-decoration: none;
+  font-family: Abyssinica SIL;
+  color: #fff;
+}
+.footer-list {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  border-top: 1px solid #fff;
+  width: 70%;
+  top: 1070px;
+  padding-left: 50px;
+  padding-top: 40px;
+
+}
+.logo-text {
+  display: flex;
+  color: #fff;
+  opacity: 0.7;
+  font-family: Abyssinica SIL;
+}
+.logo-text h3 {
+  margin-left: 15px;
+  font-family: Abyssinica SIL;
+}
+.about, .socials {
+  color: #fff;
+  font-family: Abyssinica SIL;
+  opacity: 0.7;
+}
+.about a, .socials a {
+  color: #fff;
+  text-decoration: none;
+  opacity: 0.7;
+}
+.about li, .socials li {
+  padding-top: 20px;
+  list-style: none;
+}
+.about h4, .socials h4 {
+  margin-bottom: 15px;
+}
+.copy {
+  position: absolute;
+  top: 1400px;
+  color: #fff;
+  opacity: 0.7;
+  font-family: Abyssinica SIL;
+  left: 190px;
+}
+/* contact us page */
+
+.info-section {
+  width: 100%;
+}
+.info .pic {
+  width: 400px;
+  height: 300px;
+}
+.address, .phone, .online {
+  width: 350px;
+  margin-left: 50px;
+}
+.address .txt {
+  top: 0;
+}
+
+.form {
+  width: 70%;
+}
+
+.form .input {
+  width: 250px;
+}
+
+.map {
+  position: relative;
+  margin: 0 auto;
+  width: 419px;
+  top: 340px;
+  margin: 0 auto;
+  border: 1px solid red;
+}
+.map img {
+  width: 419px;
+  height: 280px;
+}
+.footer-2 {
+top: 1850px;
+width: 100%;
+
+}
+
+/* contact us page */
+
+.info-section {
+  width: 100%;
+}
+.info .pic {
+  width: 400px;
+  height: 300px;
+}
+.address, .phone, .online {
+  width: 350px;
+  margin-left: 50px;
+}
+.address .txt {
+  top: 0;
+}
+
+.form {
+  width: 70%;
+}
+
+.form .input {
+  width: 250px;
+}
+
+.map {
+  position: relative;
+  margin: 0 auto;
+  width: 419px;
+  top: 340px;
+  margin: 0 auto;
+  border: 1px solid red;
+}
+.map img {
+  width: 419px;
+  height: 280px;
+}
+.footer-2 {
+top: 1850px;
+width: 100%;
+
+}
+    
+    }
+
+
+
+
+
+
+
+    
+  @media (min-width:880px) and (max-width:1024px) {
+  
+   
+body {
+  width: 100%;
+  margin: 0 auto;
+  font-family: sans-serif;
+  border: none;
+}
+.nav {
+  position: fixed;
+  width: 100%;
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  background: #fff;
+  z-index: 999;
+}
+.logo {
+  margin-left: 121px;
+  margin-top: 10px;
+}
+.logo img {
+  width: 30px;
+  height: 30px;
+}
+.hamburger {
+  margin-right: 121px;
+  margin-top: 10px;
+  cursor: pointer;
+} 
+.overlay {
+  height: 0;
+  width: 60%;
+  position: fixed;
+  z-index: 999;
+  top: 50px;
+  left: 200px;
+  background: #316099;
+  overflow-x: hidden;
+  transition: 0.5s;
+  opacity: 0.9;
+}
+.overlay-content {
+  position: relative;
+  top: 25%;
+  width: 100%;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.overlay a {
+  margin-bottom: 20px;
+  text-decoration: none;
+  text-align: center;
+  font-size: 16px;
+  color:#fff;
+  border-bottom: 1px solid rgb(47, 47, 139);
+  display: block;
+  transition: 0.3s;
+  padding-top: 5px;
+}
+
+.overlay a:hover, .overlay a:focus {
+  color: #ada5fd;
+}
+.overlay .closebtn {
+  position: absolute;
+  top: 10px;
+  right: 25px;
+  font-size: 45px;
+  color:#fff;
+  border: none;
+}
+.hero-section {
+  position: absolute;
+  width: 100%;
+  height: 768px;
+  left: -8px;
+  top: 1px;
+  background: linear-gradient(0deg, #98C3E8 8.84%, rgba(152, 195, 232, 0) 31.12%);
+  display: flex;
+}
+
+.Youtech {
+  position: absolute;
+  width: 269.64px;
+  height: 97.33px;
+  left: 50px;
+  top: 183px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 97px;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: #316099;
+}
+
+/* The Largest Digital Design Agency */
+.motto {
+  position: absolute;
+  width: 624.77px;
+  height: 97.33px;
+  left: 60px;
+  top: 251.67px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 27px;
+  line-height: 97px;
+  text-align: left;
+  letter-spacing: 0.04em;
+  color: #316099;
+}
+
+
+.text {
+  position: absolute;
+  width: 250px;
+  height: 26px;
+  left: 60px;
+  top: 336px;
+  font-family: Abyssinica SIL;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: left;
+  letter-spacing: 0.04em;
+  color: #316099;
+} 
+  /* See Our Project CTA */
+
+.button {
+  position: absolute;
+  width: 125px;
+  height: 26px;
+  left: 60px;
+  top: 476px;
+  font-family: Abyssinica SIL;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: #FFFFFF;
+  background: #316099;
+  border-radius: 5px;
+}
+.button a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.hero-image {
+  position: absolute;
+  width: 57.21px;
+  height: 603.24px;
+  left: 630px;
+  top: 139.47px;
+  border: 15px solid rgba(255, 255, 255, 0.2);
+}
+
+.hero-image img{
+    width: 400px;
+    height: 400px;
+    left: 0;
+} 
+
+/* What we do section*/
+
+.mid-section {
+  position: absolute;
+  width: 345px;
+  height: 138px;
+  left: 70px;
+  top: 960px;
+  font-family: Acme;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 46px;
+  letter-spacing: 0.05em;
+  color: #316099;
+} 
+
+/* css for left rectangle */
+.section-rectangle {
+  position: absolute;
+  width: 300px;
+  height: 450px;
+  left: 393px;
+  top: 0;
+  background: #FFFFFF;
+  box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
+  border-radius: 10px;
+}
+.section-rectangle img {
+   margin: 0 auto;
+   display: flex;
+   justify-content: center;
+   margin-top: -25px;
+}
+.section-rectangle h3 {
+  position: absolute;
+  width: 230px;
+  height: 60px;
+  margin-top: 20px;
+  margin-left: 20px;
+  font-family: Acme;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.05em;
+  color: #1F3F68;
+}
+.section-rectangle p {
+  position: absolute;
+  width: 284px;
+  height: 103px;
+  margin-top: 90px;
+  margin-left: 20px;
+  font-family: Abyssinica SIL;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0.05em;
+  color: #1F3F68;
+  opacity: 0.6;
+}
+
+.learn {
+  position: absolute;
+
+  Font-Family: Acme;
+  Font-Style: Regular;
+  margin-top: 220px;
+  margin-left: 20px;
+  Font-Size: 14px;
+  Line-Height: 30px;
+  Line-Height: 169%;
+  Vertical-Align: Top;
+  Letter-Spacing: 5%;
+  Fill: Solid;
+  color: #5A98D0;
+}
+.learn a {
+text-decoration: none;
+color: #5A98D0;
+} 
+
+/* css for right rectangle */
+
+
+.section-rectangle2 {
+position: absolute;
+width: 300px;
+height: 450px;
+left: 50px;
+top: 300px;
+background: #FFFFFF;
+box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
+border-radius: 10px;
+}
+.section-rectangle2 img {
+ margin: 0 auto;
+ display: flex;
+ justify-content: center;
+ margin-top: 20px;
+}
+.section-rectangle2 h3 {
+position: absolute;
+width: 230px;
+height: 60px;
+margin-top: 20px;
+margin-left: 20px;
+font-family: Acme;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 30px;
+letter-spacing: 0.05em;
+color: #1F3F68;
+}
+.section-rectangle2 p {
+position: absolute;
+width: 284px;
+height: 103px;
+margin-top: 90px;
+margin-left: 20px;
+font-family: Abyssinica SIL;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 26px;
+letter-spacing: 0.05em;
+color: #1F3F68;
+opacity: 0.6;
+} 
+
+/* css for left second rectangle */
+.section-rectangle3 {
+position: absolute;
+width: 300px; 
+height: 450px;
+left: 393px;
+top: 600px;
+background: #FFFFFF;
+box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
+border-radius: 10px;
+}
+.section-rectangle3 img {
+ margin: 0 auto;
+ display: flex;
+ justify-content: center;
+ margin-top: 20px;
+}
+.section-rectangle3 h3 {
+position: absolute;
+width: 230px;
+height: 60px;
+margin-top: 20px;
+margin-left: 20px;
+font-family: Acme;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 30px;
+letter-spacing: 0.05em;
+color: #1F3F68;
+}
+.section-rectangle3 p {
+position: absolute;
+width: 284px;
+height: 103px;
+margin-top: 90px;
+margin-left: 20px;
+font-family: Abyssinica SIL;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 26px;
+letter-spacing: 0.05em;
+color: #1F3F68;
+opacity: 0.6;
+}
+
+.section-text2 {
+position: absolute;
+width: 345px;
+height: 138px;
+left: 40px;
+top: 1160px;
+font-family: Acme;
+font-style: normal;
+font-weight: normal;
+font-size: 36px;
+line-height: 46px;
+letter-spacing: 0.05em;
+color: #316099;
+}
+.section-text3 {
+position: absolute;
+width: 445px;
+height: 138px;
+left: 340px;
+top: 1160px;
+font-family: Abyssinica SIL;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 26px;
+letter-spacing: 0.05em;
+color: #1F3F68;
+opacity: 0.6;
+}
+
+
+/* css for about us page */
+.header img {
+position: absolute;
+margin: 0 auto;
+width: 100%;
+}
+.header p{
+position: absolute;
+text-align: center;
+color: #fff;
+width: 100%;
+top: 160px;
+font-family: Abyssinica SIL;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 26px;
+letter-spacing: 0.05em;
+z-index:1;
+}
+
+.text-area {
+  position: absolute;
+  width: 100%;
+  height: 138px;
+  left: 0;
+  top: 360px;
+  background-image: url('images/Group\ 20.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position-x: 820px;
+  background-position-y: 0;
+  overflow-x: hidden;
+  }
+  
+  .txt {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  font-family: Abyssinica SIL;
+  font-style: normal;
+  padding-left: 200px;
+  padding-right: 200px;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0.05em;
+  color: #1F3F68;
+  opacity: 0.6;
+  }
+  
+
+  .header-contact img {
+    width: 100%;
+    }
+  
+  .text-area-contact {
+    width: 100%;
+    top: 200px;
+    }
+    .header-contact p{
+      width: 100%;
+      }
+    .txt-contact {
+    width: 70%;
+    text-align: center;
+    
+    }
+
+.v-text {
+position: absolute;
+width: 345px;
+height: 138px;
+left: 50px;
+top: 540px;
+font-family: Acme;
+font-style: normal;
+font-weight: 600;
+font-size: 36px;
+line-height: 46px;
+letter-spacing: 0.05em;
+color: #1F3F68;
+}
+
+.value-section {
+position: absolute;
+width: 60%;
+display: flex;
+flex-direction: row;
+top: 700px;
+justify-content: space-between;
+}
+.value-section img {
+width: 350px;
+height: 200px;
+margin-left: 50px;
+}
+.value-section h4 {
+width: 230px;
+font-family: Acme;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 30px;
+text-align: left;
+letter-spacing: 0.05em;
+color: #1F3F68;
+}
+.value-section p {
+width: 400px;
+font-family: Abyssinica SIL;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 26px;
+text-align: left;
+letter-spacing: 0.05em;
+color: #1F3F68;
+opacity: 0.6;
+}
+.value-section .txts {
+  position: absolute;
+  left: 500px;
+}
+.mid-section-about {
+top: 1160px;
+position: absolute;
+margin-left: 100px;
+margin-right: 100px;
+}
+
+.section-text {
+width: 345px;
+height: 138px;
+top: 1160px;
+font-family: Acme;
+font-style: normal;
+font-weight: normal;
+font-size: 36px;
+line-height: 46px;
+letter-spacing: 0.05em;
+color: #316099;
+}
+
+.footer {
+position: absolute;
+top: 2260px;
+width: 100%;
+background-image: url('images/Group\ 314.png');
+background-size: cover;
+height: 1438px;
+left: 0;
+background-size: cover;
+overflow-x: hidden;
+}
+
+.footer-text {
+position: absolute;
+width: 305px;
+height: 38px;
+left: 100px;
+top: 80px;
+font-family: Acme;
+font-style: normal;
+font-weight: normal;
+font-size: 36px;
+line-height: 46px;
+letter-spacing: 0.05em;
+color: #fff;
+}
+.footer-text1 {
+position: absolute;
+width: 445px;
+height: 138px;
+left: 400px;
+top: 80px;
+font-family: Abyssinica SIL;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 26px;
+letter-spacing: 0.05em;
+color: #fff;
+opacity: 0.6;
+}
+.client {
+top: 300px;
+position: relative;
+display: block;
+}
+.client-mobile, .client-pad {
+display: none;
+}
+.footer table {
+margin: 0 auto;
+font-family: Abyssinica SIL;
+}
+.footer td {
+padding: 40px;
+color: #fff;
+}
+.client1, .client2, .client3, .client4 {
+border-bottom: 1px solid #fff;
+}
+.client1, .client2, .client3, .client5, .client6, .client7 {
+border-right: 1px solid #fff;
+}
+.active {
+background: #1F3F68;
+opacity: 0.4;
+}
+
+.footer-text2 {
+position: absolute;
+width: 395px;
+height: 38px;
+left: 100px;
+top: 680px;
+font-family: Acme;
+font-style: normal;
+font-weight: normal;
+font-size: 26px;
+line-height: 46px;
+letter-spacing: 0.05em;
+color: #fff;
+}
+.footer-text3 {
+position: absolute;
+width: 445px;
+height: 138px;
+left: 100px;
+top: 800px;
+font-family: Abyssinica SIL;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 26px;
+letter-spacing: 0.05em;
+color: #fff;
+opacity: 0.6;
+}
+.lower-button{
+position: absolute;
+left: 600px;
+background: #98C3E8;
+top: 750px;
+padding-top: 15px;
+padding-bottom: 15px;
+padding-left: 40px;
+padding-right: 40px;
+border-radius: 5px;
+}
+.lower-button a{
+text-decoration: none;
+font-family: Abyssinica SIL;
+color: #fff;
+}
+.footer-list {
+position: absolute;
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+border-top: 1px solid #fff;
+width: 70%;
+top: 1070px;
+padding-top: 40px;
+
+}
+.logo-text {
+display: flex;
+color: #fff;
+opacity: 0.7;
+font-family: Abyssinica SIL;
+}
+.logo-text h3 {
+margin-left: 15px;
+font-family: Abyssinica SIL;
+padding-top: 20px;
+}
+.logo-text img {
+  margin-top: 20px;
+}
+.about, .socials {
+color: #fff;
+font-family: Abyssinica SIL;
+opacity: 0.7;
+}
+.about a, .socials a {
+color: #fff;
+text-decoration: none;
+opacity: 0.7;
+}
+.about li, .socials li {
+padding-top: 20px;
+list-style: none;
+}
+.about h4, .socials h4 {
+margin-bottom: 15px;
+}
+.copy {
+position: absolute;
+top: 1400px;
+color: #fff;
+opacity: 0.7;
+font-family: Abyssinica SIL;
+left: 70px;
+}
+    
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  @media (min-width:1025px) and (max-width:1200px) {
+  
+   
+body {
+  width: 100%;
+  margin: 0 auto;
+  font-family: sans-serif;
+  border: none;
+}
+.nav {
+  position: fixed;
+  width: 100%;
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  background: #fff;
+  z-index: 999;
+}
+.logo {
+  margin-left: 121px;
+  margin-top: 10px;
+}
+.logo img {
+  width: 30px;
+  height: 30px;
+}
+.hamburger {
+  margin-right: 121px;
+  margin-top: 10px;
+  cursor: pointer;
+} 
+.overlay {
+  height: 0;
+  width: 60%;
+  position: fixed;
+  z-index: 999;
+  top: 50px;
+  left: 200px;
+  background: #316099;
+  overflow-x: hidden;
+  transition: 0.5s;
+  opacity: 0.9;
+}
+.overlay-content {
+  position: relative;
+  top: 25%;
+  width: 100%;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.overlay a {
+  margin-bottom: 20px;
+  text-decoration: none;
+  text-align: center;
+  font-size: 16px;
+  color:#fff;
+  border-bottom: 1px solid rgb(47, 47, 139);
+  display: block;
+  transition: 0.3s;
+  padding-top: 5px;
+}
+
+.overlay a:hover, .overlay a:focus {
+  color: #ada5fd;
+}
+.overlay .closebtn {
+  position: absolute;
+  top: 10px;
+  right: 25px;
+  font-size: 45px;
+  color:#fff;
+  border: none;
+}
+.hero-section {
+  position: absolute;
+  width: 100%;
+  height: 768px;
+  left: -8px;
+  top: 1px;
+  background: linear-gradient(0deg, #98C3E8 8.84%, rgba(152, 195, 232, 0) 31.12%);
+  display: flex;
+}
+
+.Youtech {
+  position: absolute;
+  width: 269.64px;
+  height: 97.33px;
+  left: 50px;
+  top: 183px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 97px;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: #316099;
+}
+
+/* The Largest Digital Design Agency */
+.motto {
+  position: absolute;
+  width: 624.77px;
+  height: 97.33px;
+  left: 60px;
+  top: 251.67px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 27px;
+  line-height: 97px;
+  text-align: left;
+  letter-spacing: 0.04em;
+  color: #316099;
+}
+
+
+.text {
+  position: absolute;
+  width: 250px;
+  height: 26px;
+  left: 60px;
+  top: 336px;
+  font-family: Abyssinica SIL;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: left;
+  letter-spacing: 0.04em;
+  color: #316099;
+} 
+  /* See Our Project CTA */
+
+.button {
+  position: absolute;
+  width: 125px;
+  height: 26px;
+  left: 60px;
+  top: 476px;
+  font-family: Abyssinica SIL;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: #FFFFFF;
+  background: #316099;
+  border-radius: 5px;
+}
+.button a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.hero-image {
+  position: absolute;
+  width: 57.21px;
+  height: 603.24px;
+  left: 630px;
+  top: 139.47px;
+  border: 15px solid rgba(255, 255, 255, 0.2);
+}
+
+.hero-image img{
+    width: 400px;
+    height: 400px;
+    left: 0;
+} 
+
+/* What we do section*/
+
+.mid-section {
+  position: absolute;
+  width: 345px;
+  height: 138px;
+  left: 70px;
+  top: 960px;
+  font-family: Acme;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 46px;
+  letter-spacing: 0.05em;
+  color: #316099;
+} 
+
+/* css for left rectangle */
+.section-rectangle {
+  position: absolute;
+  width: 350px;
+  height: 450px;
+  left: 413px;
+  top: 0;
+  background: #FFFFFF;
+  box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
+  border-radius: 10px;
+}
+.section-rectangle img {
+   margin: 0 auto;
+   display: flex;
+   justify-content: center;
+   margin-top: -25px;
+}
+.section-rectangle h3 {
+  position: absolute;
+  width: 230px;
+  height: 60px;
+  margin-top: 20px;
+  margin-left: 20px;
+  font-family: Acme;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.05em;
+  color: #1F3F68;
+}
+.section-rectangle p {
+  position: absolute;
+  width: 284px;
+  height: 103px;
+  margin-top: 90px;
+  margin-left: 20px;
+  font-family: Abyssinica SIL;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0.05em;
+  color: #1F3F68;
+  opacity: 0.6;
+}
+
+.learn {
+  position: absolute;
+
+  Font-Family: Acme;
+  Font-Style: Regular;
+  margin-top: 220px;
+  margin-left: 20px;
+  Font-Size: 14px;
+  Line-Height: 30px;
+  Line-Height: 169%;
+  Vertical-Align: Top;
+  Letter-Spacing: 5%;
+  Fill: Solid;
+  color: #5A98D0;
+}
+.learn a {
+text-decoration: none;
+color: #5A98D0;
+} 
+
+/* css for right rectangle */
+
+
+.section-rectangle2 {
+position: absolute;
+width: 350px;
+height: 450px;
+left: 10px;
+top: 300px;
+background: #FFFFFF;
+box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
+border-radius: 10px;
+}
+.section-rectangle2 img {
+ margin: 0 auto;
+ display: flex;
+ justify-content: center;
+ margin-top: 20px;
+}
+.section-rectangle2 h3 {
+position: absolute;
+width: 230px;
+height: 60px;
+margin-top: 20px;
+margin-left: 20px;
+font-family: Acme;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 30px;
+letter-spacing: 0.05em;
+color: #1F3F68;
+}
+.section-rectangle2 p {
+position: absolute;
+width: 284px;
+height: 103px;
+margin-top: 90px;
+margin-left: 20px;
+font-family: Abyssinica SIL;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 26px;
+letter-spacing: 0.05em;
+color: #1F3F68;
+opacity: 0.6;
+} 
+
+/* css for left second rectangle */
+.section-rectangle3 {
+position: absolute;
+width: 350px; 
+height: 450px;
+left: 413px;
+top: 600px;
+background: #FFFFFF;
+box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
+border-radius: 10px;
+}
+.section-rectangle3 img {
+ margin: 0 auto;
+ display: flex;
+ justify-content: center;
+ margin-top: 20px;
+}
+.section-rectangle3 h3 {
+position: absolute;
+width: 230px;
+height: 60px;
+margin-top: 20px;
+margin-left: 20px;
+font-family: Acme;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 30px;
+letter-spacing: 0.05em;
+color: #1F3F68;
+}
+.section-rectangle3 p {
+position: absolute;
+width: 284px;
+height: 103px;
+margin-top: 90px;
+margin-left: 20px;
+font-family: Abyssinica SIL;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 26px;
+letter-spacing: 0.05em;
+color: #1F3F68;
+opacity: 0.6;
+}
+
+.section-text2 {
+position: absolute;
+width: 345px;
+height: 138px;
+left: 40px;
+top: 1160px;
+font-family: Acme;
+font-style: normal;
+font-weight: normal;
+font-size: 36px;
+line-height: 46px;
+letter-spacing: 0.05em;
+color: #316099;
+}
+.section-text3 {
+position: absolute;
+width: 445px;
+height: 138px;
+left: 340px;
+top: 1160px;
+font-family: Abyssinica SIL;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 26px;
+letter-spacing: 0.05em;
+color: #1F3F68;
+opacity: 0.6;
+}
+
+
+/* css for about us page */
+.header img {
+position: absolute;
+margin: 0 auto;
+width: 100%;
+}
+
+.header p{
+position: absolute;
+text-align: center;
+color: #fff;
+width: 100%;
+top: 160px;
+font-family: Abyssinica SIL;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 26px;
+letter-spacing: 0.05em;
+z-index:1;
+}
+
+.text-area {
+position: absolute;
+width: 100%;
+height: 138px;
+left: 0;
+top: 360px;
+background-image: url('images/Group\ 20.png');
+background-size: contain;
+background-repeat: no-repeat;
+background-position-x: 920px;
+background-position-y: 0;
+overflow-x: hidden;
+}
+
+.txt {
+position: absolute;
+width: 100%;
+text-align: center;
+font-family: Abyssinica SIL;
+font-style: normal;
+padding-left: 400px;
+padding-right: 400px;
+font-weight: normal;
+font-size: 16px;
+line-height: 26px;
+letter-spacing: 0.05em;
+color: #1F3F68;
+opacity: 0.6;
+}
+
+
+.header-contact img {
+  width: 100%;
+  }
+
+.text-area-contact {
+  width: 100%;
+  top: 200px;
+  }
+  .header-contact p{
+    width: 100%;
+    }
+  .txt-contact {
+  width: 60%;
+  text-align: center;
+  line-height: 20px;
+  
+  }
+.v-text {
+position: absolute;
+width: 345px;
+height: 138px;
+left: 50px;
+top: 540px;
+font-family: Acme;
+font-style: normal;
+font-weight: 600;
+font-size: 36px;
+line-height: 46px;
+letter-spacing: 0.05em;
+color: #1F3F68;
+}
+
+.value-section {
+position: absolute;
+width: 30%;
+display: flex;
+flex-direction: row;
+top: 700px;
+justify-content: space-between;
+left: 90px;
+}
+.value-section img {
+width: 350px;
+height: 200px;
+margin-left: 10px;
+}
+.value-section h4 {
+width: 230px;
+font-family: Acme;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 30px;
+text-align: left;
+letter-spacing: 0.05em;
+color: #1F3F68;
+}
+.value-section p {
+width: 400px;
+font-family: Abyssinica SIL;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 26px;
+text-align: left;
+letter-spacing: 0.05em;
+color: #1F3F68;
+opacity: 0.6;
+}
+.value-section .txts {
+  position: absolute;
+  left: 500px;
+}
+.mid-section-about {
+top: 1160px;
+position: absolute;
+margin-left: 200px;
+margin-right: 100px;
+}
+
+.section-text {
+width: 345px;
+height: 138px;
+top: 1160px;
+font-family: Acme;
+font-style: normal;
+font-weight: normal;
+font-size: 36px;
+line-height: 46px;
+letter-spacing: 0.05em;
+color: #316099;
+}
+
+.footer {
+position: absolute;
+top: 2260px;
+width: 100%;
+background-image: url('images/Group\ 314.png');
+background-size: cover;
+height: 1438px;
+left: 0;
+background-size: cover;
+overflow-x: hidden;
+}
+
+.footer-text {
+position: absolute;
+width: 305px;
+height: 38px;
+left: 100px;
+top: 80px;
+font-family: Acme;
+font-style: normal;
+font-weight: normal;
+font-size: 36px;
+line-height: 46px;
+letter-spacing: 0.05em;
+color: #fff;
+}
+.footer-text1 {
+position: absolute;
+width: 445px;
+height: 138px;
+left: 400px;
+top: 80px;
+font-family: Abyssinica SIL;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 26px;
+letter-spacing: 0.05em;
+color: #fff;
+opacity: 0.6;
+}
+.client {
+top: 300px;
+position: relative;
+display: block;
+}
+.client-mobile, .client-pad {
+display: none;
+}
+.footer table {
+margin: 0 auto;
+font-family: Abyssinica SIL;
+}
+.footer td {
+padding: 40px;
+color: #fff;
+}
+.client1, .client2, .client3, .client4 {
+border-bottom: 1px solid #fff;
+}
+.client1, .client2, .client3, .client5, .client6, .client7 {
+border-right: 1px solid #fff;
+}
+.active {
+background: #1F3F68;
+opacity: 0.4;
+}
+
+.footer-text2 {
+position: absolute;
+width: 395px;
+height: 38px;
+left: 100px;
+top: 680px;
+font-family: Acme;
+font-style: normal;
+font-weight: normal;
+font-size: 26px;
+line-height: 46px;
+letter-spacing: 0.05em;
+color: #fff;
+}
+.footer-text3 {
+position: absolute;
+width: 445px;
+height: 138px;
+left: 100px;
+top: 800px;
+font-family: Abyssinica SIL;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 26px;
+letter-spacing: 0.05em;
+color: #fff;
+opacity: 0.6;
+}
+.lower-button{
+position: absolute;
+left: 600px;
+background: #98C3E8;
+top: 750px;
+padding-top: 15px;
+padding-bottom: 15px;
+padding-left: 40px;
+padding-right: 40px;
+border-radius: 5px;
+}
+.lower-button a{
+text-decoration: none;
+font-family: Abyssinica SIL;
+color: #fff;
+}
+.footer-list {
+position: absolute;
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+border-top: 1px solid #fff;
+width: 70%;
+top: 1070px;
+padding-top: 40px;
+
+}
+.logo-text {
+display: flex;
+color: #fff;
+opacity: 0.7;
+font-family: Abyssinica SIL;
+}
+.logo-text h3 {
+margin-left: 15px;
+font-family: Abyssinica SIL;
+padding-top: 20px;
+}
+.logo-text img {
+  margin-top: 20px;
+}
+.about, .socials {
+color: #fff;
+font-family: Abyssinica SIL;
+opacity: 0.7;
+}
+.about a, .socials a {
+color: #fff;
+text-decoration: none;
+opacity: 0.7;
+}
+.about li, .socials li {
+padding-top: 20px;
+list-style: none;
+}
+.about h4, .socials h4 {
+margin-bottom: 15px;
+}
+.copy {
+position: absolute;
+top: 1400px;
+color: #fff;
+opacity: 0.7;
+font-family: Abyssinica SIL;
+left: 70px;
+}
+
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width:1201px) {
+
+body {
+    width: 100%;
+    margin: 0 auto;
+    font-family: sans-serif;
+    border: none;
+}
+.nav {
+    position: fixed;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    background: #fff;
+    z-index: 999;
+}
+.logo {
+    margin-left: 121px;
+    margin-top: 10px;
+}
+.logo img {
+    width: 30px;
+    height: 30px;
+}
+.hamburger {
+    margin-right: 121px;
+    margin-top: 10px;
+    cursor: pointer;
+} 
+.overlay {
+  height: 0;
+  width: 60%;
+  position: fixed;
+  z-index: 999;
+  top: 50px;
+  left: 350px;
+  background: #316099;
+  overflow-x: hidden;
+  transition: 0.5s;
+  opacity: 0.9;
+}
+.overlay-content {
+  position: relative;
+  top: 25%;
+  width: 100%;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.overlay a {
+  margin-bottom: 20px;
+  text-decoration: none;
+  text-align: center;
+  font-size: 16px;
+  color:#fff;
+  border-bottom: 1px solid rgb(47, 47, 139);
+  display: block;
+  transition: 0.3s;
+  padding-top: 5px;
+}
+
+.overlay a:hover, .overlay a:focus {
+  color: #ada5fd;
+}
+.overlay .closebtn {
+  position: absolute;
+  top: 10px;
+  right: 25px;
+  font-size: 45px;
+  color:#fff;
+  border: none;
+}
+
+  .hero-section {
+    position: absolute;
+    width: 100%;
+    height: 768px;
+    left: -8px;
+    top: 1px;
+    background: linear-gradient(0deg, #98C3E8 8.84%, rgba(152, 195, 232, 0) 31.12%);
+    display: flex;
+  }
+
+  .Youtech {
+    position: absolute;
+    width: 269.64px;
+    height: 97.33px;
+    left: 121px;
+    top: 183px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 57.8739px;
+    line-height: 97px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #316099;
+  }
+
+  /* The Largest Digital Design Agency */
+  .motto {
+    position: absolute;
+    width: 624.77px;
+    height: 97.33px;
+    left: 80px;
+    top: 251.67px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 31.5676px;
+    line-height: 97px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #316099;
+  }
+
+
+  .text {
+    position: absolute;
+    width: 250px;
+    height: 26px;
+    left: 141px;
+    top: 336px;
+    font-family: Abyssinica SIL;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: left;
+    letter-spacing: 0.04em;
+    color: #316099;
+  } 
+    /* See Our Project CTA */
+
+  .button {
+    position: absolute;
+    width: 125px;
+    height: 26px;
+    left: 142px;
+    top: 476px;
+    font-family: Abyssinica SIL;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    background: #316099;
+    border-radius: 5px;
+  }
+  .button a {
+    text-decoration: none;
+    color: #fff;
+  }
+
+  .hero-image {
+    position: absolute;
+    width: 57.21px;
+    height: 603.24px;
+    left: 930.7px;
+    top: 119.47px;
+    border: 15px solid rgba(255, 255, 255, 0.2);
+  }
+
+  .hero-image img{
+      width: 500px;
+      height: 500px;
+      left: 0;
+  } 
+
+/* What we do section*/
+
+ .mid-section {
+    position: absolute;
+    width: 345px;
+    height: 138px;
+    left: 213px;
+    top: 960px;
+    font-family: Acme;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 46px;
+    letter-spacing: 0.05em;
+    color: #316099;
+ } 
+
+ /* css for left rectangle */
+  .section-rectangle {
+    position: absolute;
+    width: 380px;
+    height: 500px;
+    left: 573px;
+    top: 0;
+    background: #FFFFFF;
+    box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
+    border-radius: 10px;
+ }
+ .section-rectangle img {
+     margin: 0 auto;
+     display: flex;
+     justify-content: center;
+     margin-top: -25px;
+ }
+ .section-rectangle h3 {
+    position: absolute;
+    width: 230px;
+    height: 60px;
+    margin-top: 20px;
+    margin-left: 20px;
+    font-family: Acme;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.05em;
+    color: #1F3F68;
+ }
+ .section-rectangle p {
+    position: absolute;
+    width: 284px;
+    height: 103px;
+    margin-top: 90px;
+    margin-left: 20px;
+    font-family: Abyssinica SIL;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    color: #1F3F68;
+    opacity: 0.6;
+ }
+
+.learn {
+    position: absolute;
+
+    Font-Family: Acme;
+    Font-Style: Regular;
+    margin-top: 220px;
+    margin-left: 20px;
+    Font-Size: 14px;
+    Line-Height: 30px;
+    Line-Height: 169%;
+    Vertical-Align: Top;
+    Letter-Spacing: 5%;
+    Fill: Solid;
+    color: #5A98D0;
+}
+.learn a {
+  text-decoration: none;
+  color: #5A98D0;
+} 
+
+/* css for right rectangle */
+
+
+.section-rectangle2 {
+  position: absolute;
+  width: 380px;
+  height: 450px;
+  left: 60px;
+  top: 300px;
+  background: #FFFFFF;
+  box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
+  border-radius: 10px;
+}
+.section-rectangle2 img {
+   margin: 0 auto;
+   display: flex;
+   justify-content: center;
+   margin-top: 20px;
+}
+.section-rectangle2 h3 {
+  position: absolute;
+  width: 230px;
+  height: 60px;
+  margin-top: 20px;
+  margin-left: 20px;
+  font-family: Acme;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.05em;
+  color: #1F3F68;
+}
+.section-rectangle2 p {
+  position: absolute;
+  width: 284px;
+  height: 103px;
+  margin-top: 90px;
+  margin-left: 20px;
+  font-family: Abyssinica SIL;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0.05em;
+  color: #1F3F68;
+  opacity: 0.6;
+} 
+
+/* css for left second rectangle */
+ .section-rectangle3 {
+  position: absolute;
+  width: 380px;
+  height: 450px;
+  left: 573px;
+  top: 600px;
+  background: #FFFFFF;
+  box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
+  border-radius: 10px;
+}
+.section-rectangle3 img {
+   margin: 0 auto;
+   display: flex;
+   justify-content: center;
+   margin-top: 20px;
+}
+.section-rectangle3 h3 {
+  position: absolute;
+  width: 230px;
+  height: 60px;
+  margin-top: 20px;
+  margin-left: 20px;
+  font-family: Acme;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.05em;
+  color: #1F3F68;
+}
+.section-rectangle3 p {
+  position: absolute;
+  width: 284px;
+  height: 103px;
+  margin-top: 90px;
+  margin-left: 20px;
+  font-family: Abyssinica SIL;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0.05em;
+  color: #1F3F68;
+  opacity: 0.6;
+}
+
+.section-text2 {
+  position: absolute;
+  width: 345px;
+  height: 138px;
+  left: 40px;
+  top: 1160px;
+  font-family: Acme;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 46px;
+  letter-spacing: 0.05em;
+  color: #316099;
+}
+.section-text3 {
+  position: absolute;
+  width: 445px;
+  height: 138px;
+  left: 440px;
+  top: 1160px;
+  font-family: Abyssinica SIL;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0.05em;
+  color: #1F3F68;
+  opacity: 0.6;
+}
+
+
+/* css for about us page */
+.header img {
+  position: absolute;
+  margin: 0 auto;
+  width: 100%;
+}
+.header p{
+  position: absolute;
+  text-align: center;
+  color: #fff;
+  width: 100%;
+  top: 160px;
+  font-family: Abyssinica SIL;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 26px;
+  letter-spacing: 0.05em;
+  z-index:1;
+}
+
+.text-area {
+  position: absolute;
+  width: 100%;
+  height: 138px;
+  left: 0;
+  top: 360px;
+  background-image: url('images/Group\ 20.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position-x: 1000px;
+  background-position-y: 0;
+  overflow-x: hidden;
+}
+
+.txt {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  font-family: Abyssinica SIL;
+  font-style: normal;
+  padding-left: 400px;
+  padding-right: 400px;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0.05em;
+  color: #1F3F68;
+  opacity: 0.6;
+}
+
+
+.header-contact img {
+  width: 100%;
+  height: 200px;
+  }
+
+.text-area-contact {
+  width: 100%;
+  top: 200px;
+  }
+  .header-contact p{
+    width: 100%;
+    top: 100px;
+    }
+  .txt-contact {
+  width: 50%;
+  text-align: center;
+  line-height: 20px;
+  }
+.v-text {
+  position: absolute;
+  width: 345px;
+  height: 138px;
+  left: 190px;
+  top: 540px;
+  font-family: Acme;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 46px;
+  letter-spacing: 0.05em;
+  color: #1F3F68;
+}
+
+.value-section {
+  position: absolute;
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  top: 700px;
+  justify-content: space-between;
+  margin: 40px;
+}
+.value-section img {
+  width: 450px;
+  height: 300px;
+  margin-left: 160px;
+}
+.value-section h4 {
+  width: 230px;
+  font-family: Acme;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: left;
+  letter-spacing: 0.05em;
+  color: #1F3F68;
+}
+.value-section p {
+  width: 400px;
+  font-family: Abyssinica SIL;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: left;
+  letter-spacing: 0.05em;
+  color: #1F3F68;
+  opacity: 0.6;
+}
+.mid-section-about {
+  top: 1160px;
+  position: absolute;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+.section-text {
+  width: 345px;
+  height: 138px;
+  top: 1160px;
+  font-family: Acme;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 46px;
+  letter-spacing: 0.05em;
+  color: #316099;
+}
+
+.footer {
+  position: absolute;
+  top: 2260px;
+  width: 100%;
+  background-image: url('images/Group\ 314.png');
+  background-size: cover;
+  height: 1438px;
+  left: 0;
+  background-size: cover;
+  overflow-x: hidden;
+}
+
+.footer-text {
+  position: absolute;
+  width: 305px;
+  height: 38px;
+  left: 300px;
+  top: 80px;
+  font-family: Acme;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 46px;
+  letter-spacing: 0.05em;
+  color: #fff;
+}
+.footer-text1 {
+  position: absolute;
+  width: 445px;
+  height: 138px;
+  left: 600px;
+  top: 80px;
+  font-family: Abyssinica SIL;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0.05em;
+  color: #fff;
+  opacity: 0.6;
+}
+.client {
+  top: 300px;
+  position: relative;
+  display: block;
+}
+.client-mobile, .client-pad {
+  display: none;
+}
+.footer table {
+  margin: 0 auto;
+  font-family: Abyssinica SIL;
+}
+.footer td {
+  padding: 40px;
+  color: #fff;
+}
+.client1, .client2, .client3, .client4 {
+  border-bottom: 1px solid #fff;
+}
+.client1, .client2, .client3, .client5, .client6, .client7 {
+  border-right: 1px solid #fff;
+}
+.active {
+  background: #1F3F68;
+  opacity: 0.4;
+}
+
+.footer-text2 {
+  position: absolute;
+  width: 395px;
+  height: 38px;
+  left: 200px;
+  top: 780px;
+  font-family: Acme;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 46px;
+  letter-spacing: 0.05em;
+  color: #fff;
+}
+.footer-text3 {
+  position: absolute;
+  width: 445px;
+  height: 138px;
+  left: 200px;
+  top: 900px;
+  font-family: Abyssinica SIL;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0.05em;
+  color: #fff;
+  opacity: 0.6;
+}
+.lower-button{
+  position: absolute;
+  left: 900px;
+  background: #98C3E8;
+  top: 850px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 40px;
+  padding-right: 40px;
+  border-radius: 5px;
+}
+.lower-button a{
+  text-decoration: none;
+  font-family: Abyssinica SIL;
+  color: #fff;
+}
+.footer-list {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  border-top: 1px solid #fff;
+  width: 70%;
+  top: 1070px;
+  padding-left: 100px;
+  padding-top: 40px;
+
+}
+.logo-text {
+  display: flex;
+  color: #fff;
+  opacity: 0.7;
+  font-family: Abyssinica SIL;
+}
+.logo-text h3 {
+  margin-left: 15px;
+  font-family: Abyssinica SIL;
+}
+.about, .socials {
+  color: #fff;
+  font-family: Abyssinica SIL;
+  opacity: 0.7;
+}
+.about a, .socials a {
+  color: #fff;
+  text-decoration: none;
+  opacity: 0.7;
+}
+.about li, .socials li {
+  padding-top: 20px;
+  list-style: none;
+}
+.about h4, .socials h4 {
+  margin-bottom: 15px;
+}
+.copy {
+  position: absolute;
+  top: 1400px;
+  color: #fff;
+  opacity: 0.7;
+  font-family: Abyssinica SIL;
+  left: 190px;
+}
+} 
